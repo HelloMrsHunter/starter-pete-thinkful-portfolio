@@ -1,4 +1,4 @@
-# Pete's Portfolio Starter Project
+# Wilondra's Portfolio Starter Project
 
 This repository contains a starter template for Pete's portfolio. The project helps you learn how to create a personal portfolio page using HTML and CSS, while also getting familiar with basic design principles.
 

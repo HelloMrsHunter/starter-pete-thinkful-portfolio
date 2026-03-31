@@ -23,7 +23,7 @@ header {
 
 /* Containers */
 div {
-  background-color: #eae2b7;
+  background-color: #89506f;
   margin: auto;
   width: 600px;
 }
@@ -44,17 +44,22 @@ p {
 
 /* Links */
 a:link {
-  color: #d62828;
+  color: #d628288f;
 }
 
 a:hover {
-  color: #f77f00;
+  color: #a45f16;
 }
 
 nav a {
   padding-left: 20px;
 }
 
+article#portfolio section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Images */
 img {
   width: 100%;
