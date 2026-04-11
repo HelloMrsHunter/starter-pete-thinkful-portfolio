@@ -9,12 +9,10 @@ body {
 }
 
 /* Headings */
-h1,
-h2 
-{ 
-  display: flex;
-text-align: center;
-},
+h1 {text-align: center;
+  font-family: "Playfair Display", Times, serif;
+}
+h2, 
 h3 {
   font-family: "Geneva", Times, serif;
   text-align: center;
@@ -37,13 +35,36 @@ article {
   padding: 50px 0;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
+/* About section */
+article#about section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+article#about section div {
+  display: flex;
+  align-items: stretch
+}
+
+article#about section div:first-child {
+  margin-right: 20px;
+}
+
+article#about section div:last-child {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+  .image-circle {
+    border: 2px solid #003049;
+    border-radius: 50%;
+}
+  
 
 /* Paragraphs */
 p {
+  align-items: center;
   line-height: 1.5;
 }
 
@@ -65,17 +86,12 @@ article#portfolio section div {
   justify-content: center;
   align-items: center;
 }
+
 /* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
-}
-
-.image-circle {
-  border: 2px solid #003049;
-  border-radius: 50%;
-  display: flex;
 }
 
 /* Footer */
