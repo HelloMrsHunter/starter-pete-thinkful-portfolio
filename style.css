@@ -10,7 +10,11 @@ body {
 
 /* Headings */
 h1,
-h2,
+h2 
+{ 
+  display: flex;
+text-align: center;
+},
 h3 {
   font-family: "Geneva", Times, serif;
   text-align: center;
