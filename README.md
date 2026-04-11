@@ -43,3 +43,8 @@ This template is meant to be a starting point. Here are some suggestions for cus
 - **HTML**: Structure of the web pages.
 - **CSS**: Styling and layout of the portfolio.
 - **Responsive Design**: Built with mobile-first principles in mind.
+
+- Updated pictures in the file 
+- Changed profile details and descriptions
+- Updated page colors to purple and gold to represent my two favorite colors
+- Added Flex box to CSS
