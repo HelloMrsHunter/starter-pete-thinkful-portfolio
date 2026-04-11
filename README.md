@@ -48,3 +48,5 @@ This template is meant to be a starting point. Here are some suggestions for cus
 - Changed profile details and descriptions
 - Updated page colors to purple and gold to represent my two favorite colors
 - Added Flex box to CSS
+
+This file was used to create a profile page for the Deeper CSS project. During this project, I worked with a tutor to create a fork of the repository and  to commit my changes. I updated the layout to be more centered and added a Flex box. This made the page more appealing on a desktop. I also added my two favorite colors for the background, gold and purple and changed the font. I had a difficult time committing my changes and worked with a tutor to resolve this. I used AI to ensure my CSS formatting for the font was correct. I learned it is very important to pay attention to the small details something as simple as letter placement during background color selection can result in the wrong color or in the page not loading properly. 
