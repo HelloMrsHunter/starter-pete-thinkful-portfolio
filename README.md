@@ -4,14 +4,14 @@ This repository contains a starter template for Pete's portfolio. The project he
 
 ## Project Overview
 
-This portfolio website template serves as a foundation to showcase your projects, skills, and experience as a developer. It includes pre-designed sections for an introduction, project gallery, skills, and contact information. You are encouraged to modify and extend the design to fit your personal style.
+This portfolio website serves as a personal introduction and a place to showcase my work as an aspiring web developer. The project includes sections for an About summary, a portfolio gallery, and contact information. I customized the template to reflect my personality, interests, and design preferences.
 
 ## Features
 
-- **Responsive Layout**: The template is designed to be mobile-friendly, ensuring that your portfolio looks great on all devices.
-- **Customizable Design**: Easily update images, colors, and content through the HTML and CSS files.
-- **Gallery Section**: Showcase your projects with space for project descriptions and links.
-- **Contact Form**: Pre-built form to collect inquiries and messages from visitors.
+- Responsive Layout: Designed to display cleanly on desktop and mobile devices.
+- Custom Styling — Updated colors, fonts, and layout to create a unique look.
+-Portfolio Gallery — Displays project images and descriptions in a horizontal Flexbox layout.
+-Organized About Section — Includes an image, introduction, background, and skills.
 
 ## Installation
 
@@ -24,29 +24,22 @@ This portfolio website template serves as a foundation to showcase your projects
 2. **Open the project**:
    You can simply open `index.html` in your browser to view the website locally.
 
-## Getting Started
-
-Once you have the repository cloned, feel free to modify the HTML and CSS to add your personal details:
-- Update the **profile picture** and **about section** in `index.html`.
-- Add your own **project details** in the gallery section.
-- Customize colors and fonts in the `style.css` file to match your preferences.
-
 ## Customization
 
-This template is meant to be a starting point. Here are some suggestions for customization:
-- Replace the placeholder images in the `images/` folder with your own.
-- Modify the layout, fonts, and colors in `style.css` to make it unique.
-- Add additional sections for skills, experience, or testimonials as needed.
+-Updated all profile details, including my name, introduction, and background.
+-Replaced placeholder images with my own images.
+-Changed the color palette to purple and gold, my two favorite colors.
+-Updated fonts using Google Fonts.
+-Reorganized the About section using Flexbox for a cleaner layout.
+-Added Flexbox to the portfolio section to align all project images in a single horizontal row.
+-Centered major page elements for a more balanced design.
 
 ## Technologies
 
-- **HTML**: Structure of the web pages.
-- **CSS**: Styling and layout of the portfolio.
+- **HTML**: Structure and content
+- **CSS**: Styling, Flexbox layout, colors, and typography
 - **Responsive Design**: Built with mobile-first principles in mind.
 
-- Updated pictures in the file 
-- Changed profile details and descriptions
-- Updated page colors to purple and gold to represent my two favorite colors
-- Added Flex box to CSS
 
-This file was used to create a profile page for the Deeper CSS project. During this project, I worked with a tutor to create a fork of the repository and  to commit my changes. I updated the layout to be more centered and added a Flex box. This made the page more appealing on a desktop. I also added my two favorite colors for the background, gold and purple and changed the font. I had a difficult time committing my changes and worked with a tutor to resolve this. I used AI to ensure my CSS formatting for the font was correct. AI was also used to ensure I had proper alignment for the about section of the flexbox. . I learned it is very important to pay attention to the small details something as simple as letter placement during background color selection can result in the wrong color or in the page not loading properly. 
+What I Learned
+During this project, I learned how important it is to pay attention to detail when working with CSS. Small mistakes, such as missing characters or incorrect color codes, can break the layout or prevent styles from loading correctly. I also gained experience with using Flexbox to align content horizontally, structuring HTML for cleaner layout control and troubleshooting commit issues in GitHub. Adjusting fonts and colors to create a cohesive design was also a valuable take away from this lesson.Working through challenges with the help of a tutor and by researching solutions I was able to resolve the issues I encountered during this project. This feedback also helped me implement the necessary changes to meet the projects requirements. This project helped me build confidence in my ability to style web pages and understand how layout, spacing, and alignment work together to create a polished design.

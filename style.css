@@ -2,15 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
-  background-color: #ebc014f4;
+  background-color: #efc20d86;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
 
 /* Headings */
-h1 {text-align: center;
+h1 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
 h2, 
 h3 {
@@ -20,47 +21,106 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
   display: flex;
+  justify-content: space-between;
+  align-items: center;           
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-size: 14px;
 }
 
 /* Containers */
-div {
-  background-color: #b655cf;
-  margin: auto;
-  width: 600px;
-}
-
 article {
   padding: 50px 0;
+    font-size: 14px;
 }
 
 /* About section */
-article#about section {
+
+.about-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.image-circle {
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h3 {
+  text-align: center;
+}
+
+.about-text p,
+.about-text ul {
+  text-align: center;
+  font-size: 14px;
+}
+
+.about-sub {
+  max-width: 800px;
+  margin: 40px auto;
+  font-size: 14px;
+}
+
+/* Portfolio section */
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.portfolio-section section {
+  text-align: center;
+  width: 250px;
+}
+
+.portfolio-section img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #003049;
+  border-radius: 4px;
+}
+
+.portfolio-section p {
+  font-size: 14px; 
+  margin-top: 10px;
+}
+
+
+
+
+/* Contact section */
+article#contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-article#about section div {
-  display: flex;
-  align-items: stretch
-}
-
-article#about section div:first-child {
-  margin-right: 20px;
-}
-
-article#about section div:last-child {
-  flex: 0 0 auto;
-  margin-left: auto;
-}
-
-  .image-circle {
-    border: 2px solid #003049;
-    border-radius: 50%;
-}
-  
 
 /* Paragraphs */
 p {
